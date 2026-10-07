@@ -1,0 +1,88 @@
+[
+  {
+    "id": "conv-1",
+    "scenario": "Workplace collaboration on a new software feature",
+    "agentA": {
+      "id": "Alice",
+      "label": "non_autistic",
+      "traits": ["direct", "task-oriented"]
+    },
+    "agentB": {
+      "id": "Bob",
+      "label": "autistic_tier_1",
+      "traits": ["detail-oriented", "literal", "requires explicit instructions"]
+    },
+    "turns": [
+      {
+        "speaker": "Alice",
+        "text": "Hey Bob, can you look at the new feature design?",
+        "timestamp": "2023-10-27T10:00:00Z"
+      },
+      {
+        "speaker": "Bob",
+        "text": "Yes, I can look at it. Where is the documentation located?",
+        "timestamp": "2023-10-27T10:01:00Z"
+      }
+    ],
+    "interview": [
+      {
+        "question": "How did the interaction go?",
+        "answer": "It was fine, but Bob asked for documentation immediately."
+      }
+    ]
+  },
+  {
+    "id": "conv-2",
+    "scenario": "Planning a team lunch",
+    "agentA": {
+      "id": "Charlie",
+      "label": "non_autistic",
+      "traits": ["social", "flexible"]
+    },
+    "agentB": {
+      "id": "Dave",
+      "label": "autistic_tier_2",
+      "traits": ["routine-oriented", "sensory sensitive"]
+    },
+    "turns": [
+      {
+        "speaker": "Charlie",
+        "text": "Let's grab lunch at that new loud trendy place downtown!",
+        "timestamp": "2023-10-27T11:00:00Z"
+      },
+      {
+        "speaker": "Dave",
+        "text": "Loud environments are overwhelming for me. Could we go somewhere quieter or order in?",
+        "timestamp": "2023-10-27T11:02:00Z"
+      }
+    ],
+    "interview": []
+  },
+  {
+    "id": "conv-3",
+    "scenario": "Feedback session",
+    "agentA": {
+      "id": "Eve",
+      "label": "autistic_tier_3",
+      "traits": ["highly literal", "limited spoken language", "needs alternative communication"]
+    },
+    "agentB": {
+      "id": "Frank",
+      "label": "non_autistic",
+      "traits": ["empathetic", "patient"]
+    },
+    "turns": [
+      {
+        "speaker": "Frank",
+        "text": "How do you feel about the current project pacing?",
+        "timestamp": "2023-10-27T14:00:00Z"
+      },
+      {
+        "speaker": "Eve",
+        "text": "[Types on AAC device] Too fast. Need more time per task.",
+        "timestamp": "2023-10-27T14:03:00Z"
+      }
+    ],
+    "interview": []
+  }
+]

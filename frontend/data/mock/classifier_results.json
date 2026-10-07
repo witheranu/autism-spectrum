@@ -1,0 +1,62 @@
+[
+  {
+    "conversationId": "conv-1",
+    "trueLabel": "autistic_tier_1",
+    "predictedLabel": "non_autistic",
+    "confidence": 0.65,
+    "features": {
+      "literal_interpretation": 0.4,
+      "direct_communication": 0.7,
+      "sensory_mention": 0.1,
+      "routine_preference": 0.2
+    }
+  },
+  {
+    "conversationId": "conv-2",
+    "trueLabel": "autistic_tier_2",
+    "predictedLabel": "autistic_tier_2",
+    "confidence": 0.88,
+    "features": {
+      "literal_interpretation": 0.3,
+      "direct_communication": 0.6,
+      "sensory_mention": 0.9,
+      "routine_preference": 0.8
+    }
+  },
+  {
+    "conversationId": "conv-3",
+    "trueLabel": "autistic_tier_3",
+    "predictedLabel": "autistic_tier_3",
+    "confidence": 0.95,
+    "features": {
+      "literal_interpretation": 0.9,
+      "direct_communication": 0.9,
+      "sensory_mention": 0.2,
+      "routine_preference": 0.7
+    }
+  },
+  {
+    "conversationId": "conv-4",
+    "trueLabel": "non_autistic",
+    "predictedLabel": "non_autistic",
+    "confidence": 0.92,
+    "features": {
+      "literal_interpretation": 0.1,
+      "direct_communication": 0.4,
+      "sensory_mention": 0.1,
+      "routine_preference": 0.3
+    }
+  },
+  {
+    "conversationId": "conv-5",
+    "trueLabel": "autistic_tier_1",
+    "predictedLabel": "autistic_tier_1",
+    "confidence": 0.75,
+    "features": {
+      "literal_interpretation": 0.6,
+      "direct_communication": 0.8,
+      "sensory_mention": 0.2,
+      "routine_preference": 0.5
+    }
+  }
+]
